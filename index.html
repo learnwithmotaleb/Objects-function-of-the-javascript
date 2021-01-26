@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript learning</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+
+<script>
+// var name="Abdul Motaleb";
+// var age=19;
+// var cgpa=3.25;
+// var lang=["Bangla","English","Hindi"];
+// document.write(name,age,cgpa,lang);
+function Students(name, age,cgpa,lang){
+    this.name=name;
+    this.age=age;
+    this.cgpa=cgpa;
+    this.lang=lang;
+    this.display = function(){
+
+
+document.write(this.name);
+document.write(this.age);
+document.write(this.cgpa);
+document.write(this.lang);
+
+    }
+}
+var students1=new Students("Abdul Motaleb" , 19, 3.25,["Bangla","English","Hindi"]);
+var students2=new Students("Munna vai ", 19, 3.25,["Bangla","English","Hindi"]);
+var students3=new Students("Nila khan ", 19, 3.25,["Bangla","English","Hindi"]);
+
+
+
+students1.display();
+students2.display();
+students3.display();
+
+
+// document.write(students1.name);
+// document.write(students1.age);
+// document.write(students1.cgpa);
+// document.write(students1.lang);
+
+
+// document.write(students2.name);
+// document.write(students2.age);
+// document.write(students2.cgpa);
+// document.write(students2.lang);
+
+// document.write(students3.name);
+// document.write(students3.age);
+// document.write(students3.cgpa);
+// document.write(students3.lang);
+
+
+
+
+// var sutudent1={
+//     name : "Abdul Motaleb",
+//     age : 19,
+//     cgpa : 3.25,
+//     lang: ["Bangla","English","Hindi"],
+// }
+
+// var sutudent2={
+//     name : "Munna Vai",
+//     age : 19,
+//     cgpa : 4.25,
+//     lang: ["Bangla","English","Hindi"],
+// }
+
+// var sutudent3={
+//     name : "Nila Khan",
+//     age : 19,
+//     cgpa : 3.25,
+//     lang: ["Bangla","English","Hindi"],
+// }
+// document.write(sutudent3.name);
+</script>
+<br/>
+<!-- <cite>The Array of the function in the looping and the Addition of the Array__</cite> -->
+    <script src="index.js"></script>
+</body>
+</html>
